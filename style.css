@@ -31,3 +31,11 @@ p {
 .active-plan {
   border: 2px solid goldenrod;
 }
+
+.slot-area {
+  margin-top: 30px;
+}
+
+.done {
+  color: green;
+}

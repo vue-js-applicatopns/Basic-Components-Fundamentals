@@ -29,8 +29,19 @@ let PlanPickerComponent = {
   },
 };
 
+let TodoItemComponent = {
+  template: "#todo-item-template",
+
+  data() {
+    return {
+      done: false,
+    };
+  },
+};
+
 Vue.createApp({
   components: {
     "plan-picker": PlanPickerComponent,
+    "todo-item": TodoItemComponent,
   },
 }).mount("#app");
